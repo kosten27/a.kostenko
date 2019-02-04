@@ -18,6 +18,8 @@ public class InsertionSort {
             for (int j = 0; j < i-1; j++) {
                 if (ints[i] < ints[j]) {
                     int a = ints[i];
+                    ints[i] = ints[j];
+                    ints[j] = a;
 
                 }
             }
